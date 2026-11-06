@@ -1,8 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand: #f97316;
+  --color-brand-light: #fb923c;
+  --color-brand-dark: #ea580c;
+  --color-surface: #141418;
+  --color-surface-2: #1a1a20;
+  --color-edge: #26262b;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0b;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,15 +21,82 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+::selection {
+  background: #f97316;
+  color: #0a0a0b;
+}
+
+:focus-visible {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
+
+/* Signature (handwritten name in the About section) */
+.signature {
+  font-family: var(--font-signature), "Segoe Script", cursive;
+}
+
+/* Skill bar fill: width comes from the inline style; animation only plays from 0 */
+@keyframes grow-bar {
+  from {
+    width: 0;
+  }
+}
+
+.skill-fill {
+  animation: grow-bar 1.2s ease-out both;
+}
+
+/* Blinking caret after the hero designation */
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Toast entrance (Contact form notifications) */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) translateX(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.toast-enter {
+  animation: toast-in 0.3s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
