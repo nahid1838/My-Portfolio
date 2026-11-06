@@ -1,0 +1,89 @@
+==================================================
+                    MY INFO
+==================================================
+
+--- 1. PERSONAL / HERO ---
+Full Name: Nadiul Islam Nahid
+Display Name: Nahid
+Designation: Full Stack Developer
+Tagline: [Hi I am Nadiul Islam Nahid. "I build fast, responsive and user-friendly web applications."]
+Location: Dhaka, Bangladesh
+Profile Photo: /images/profile.jpg 
+Resume File: /resume/Nahid-Resume.pdf (not ready yet, keep a clickable button for now)
+
+
+
+--- 2. ABOUT ME ---
+
+SECTION TITLE: About Me
+SUBTITLE: Full Stack Developer from Dhaka, Bangladesh
+
+** Who I Am
+Hi, I'm Nadiul Islam Nahid, a web developer based in Dhaka, Bangladesh. I'm training to become a Full Stack Developer through Programming Hero's Complete Web Development course (Batch 14), building complete web applications from interface to database.
+
+** My Journey
+I started with HTML, CSS and JavaScript, then moved to Tailwind CSS, TypeScript and Next.js. I'm now growing on the backend with Node.js, Express.js, MongoDB and secure authentication using Better Auth. I learn by building, so every new concept becomes a real project deployed live on Vercel.
+
+** What I Enjoy
+I enjoy crafting clean, responsive interfaces and connecting them to reliable backends. I care about details like readable code, smooth interactions and a clear structure, and I like solving problems one step at a time.
+
+** Beyond Codep
+Outside programming, I'm interested in web design and visual aesthetics, and I enjoy making cartoon-style video content. Both keep me creative and help me think more visually when I design websites.
+
+** My Goal
+I'm aiming to grow into a professional full stack developer and contribute to real-world products. I'm open to internships, junior developer roles and freelance projects.
+
+PERSONALITY KEYWORDS: Curious, Consistent, Creative, Detail-oriented, Fast learner
+
+QUICK FACTS
+- Location: Dhaka, Bangladesh
+- Learning: Programming Hero
+- Focus: Next.js, TypeScript, MongoDB
+- Interests: Web Design, Video Content
+
+
+
+--- 3. SKILLS ---
+
+Frontend:
+- HTML5
+- CSS3
+- Tailwind CSS
+- DaisyUI / Component libraries
+- JavaScript (ES6+)
+- TypeScript
+- React.js
+- Next.js (App Router)
+- Responsive Web Design
+
+Backend:
+- Node.js
+- Express.js
+- REST API Development
+- Authentication (Better Auth, JWT)
+
+Database:
+- MongoDB / MongoDB Atlas
+- Mongoose
+
+Tools and Platforms:
+- Git and GitHub
+- VS Code
+- DaisyUI
+- HeroUI
+- Shadcn
+- Vercel (Deployment)
+- Postman
+- Firebase
+- AI-assisted development
+
+
+--- 4. CONTACT ---
+Email: md.nahid186502@gmail.com
+Phone: 01690197119 / 01804828440
+WhatsApp: 01690197119
+
+--- 5. SOCIAL LINKS ---
+GitHub: https://github.com/nahid1838
+LinkedIn: https://www.linkedin.com/in/nadiul-islam-nahid/
+Resume: 
